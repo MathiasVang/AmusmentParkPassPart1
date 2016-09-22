@@ -10,6 +10,8 @@
 		1F1D90981D93F12700021FA6 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1D90971D93F12700021FA6 /* Protocols.swift */; };
 		1F1D909A1D93F14800021FA6 /* DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1D90991D93F14800021FA6 /* DataTypes.swift */; };
 		1F1D909C1D93F16100021FA6 /* EntranceTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1D909B1D93F16100021FA6 /* EntranceTower.swift */; };
+		1F1D909E1D93F61700021FA6 /* AccessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1D909D1D93F61700021FA6 /* AccessModel.swift */; };
+		1F1D90A01D94098500021FA6 /* ErrorTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1D909F1D94098500021FA6 /* ErrorTypes.swift */; };
 		1F827D511D93E7ED0067B66F /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F827D501D93E7ED0067B66F /* Child.swift */; };
 		1F827D541D93E9080067B66F /* HourlyEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F827D531D93E9080067B66F /* HourlyEmployee.swift */; };
 		1F827D5A1D93EB930067B66F /* Classic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F827D591D93EB930067B66F /* Classic.swift */; };
@@ -28,6 +30,8 @@
 		1F1D90971D93F12700021FA6 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		1F1D90991D93F14800021FA6 /* DataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTypes.swift; sourceTree = "<group>"; };
 		1F1D909B1D93F16100021FA6 /* EntranceTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntranceTower.swift; sourceTree = "<group>"; };
+		1F1D909D1D93F61700021FA6 /* AccessModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessModel.swift; sourceTree = "<group>"; };
+		1F1D909F1D94098500021FA6 /* ErrorTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorTypes.swift; sourceTree = "<group>"; };
 		1F827D501D93E7ED0067B66F /* Child.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
 		1F827D531D93E9080067B66F /* HourlyEmployee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourlyEmployee.swift; sourceTree = "<group>"; };
 		1F827D591D93EB930067B66F /* Classic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classic.swift; sourceTree = "<group>"; };
@@ -61,6 +65,7 @@
 				1F1D90971D93F12700021FA6 /* Protocols.swift */,
 				1F1D90991D93F14800021FA6 /* DataTypes.swift */,
 				1F1D909B1D93F16100021FA6 /* EntranceTower.swift */,
+				1F1D909D1D93F61700021FA6 /* AccessModel.swift */,
 				1F827D4F1D93E7C40067B66F /* Guest */,
 				1F827D521D93E8F10067B66F /* Employees */,
 			);
@@ -111,6 +116,7 @@
 				1F8B5F641D92D423004A379F /* Assets.xcassets */,
 				1F8B5F661D92D423004A379F /* LaunchScreen.storyboard */,
 				1F8B5F691D92D423004A379F /* Info.plist */,
+				1F1D909F1D94098500021FA6 /* ErrorTypes.swift */,
 				1F1D90961D93F11500021FA6 /* DataModel */,
 				1F8B5F6F1D92D443004A379F /* Sounds */,
 			);
@@ -201,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F1D909E1D93F61700021FA6 /* AccessModel.swift in Sources */,
 				1F827D5C1D93EB9D0067B66F /* VIP.swift in Sources */,
 				1F1D909C1D93F16100021FA6 /* EntranceTower.swift in Sources */,
 				1F8B5F601D92D423004A379F /* ViewController.swift in Sources */,
@@ -210,6 +217,7 @@
 				1F827D541D93E9080067B66F /* HourlyEmployee.swift in Sources */,
 				1F8B5F5E1D92D423004A379F /* AppDelegate.swift in Sources */,
 				1F1D909A1D93F14800021FA6 /* DataTypes.swift in Sources */,
+				1F1D90A01D94098500021FA6 /* ErrorTypes.swift in Sources */,
 				1F827D5E1D93EC530067B66F /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

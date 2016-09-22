@@ -9,7 +9,7 @@
 import Foundation
 
 class Manager: Employee {
-    var dayOfBirth: NSDate?
+    var dayOfBirth: Date?
     var type: EntranceType
     
     var firstName: String
@@ -19,7 +19,14 @@ class Manager: Employee {
     var state: String
     var zipCode: Int
     
-    init() {
-        <#statements#>
+    init(dayOfBirth: Date?, type: EntranceType, firstName: String, lastName: String, address: String, city: String, state: String, zipCode: Int) {
+        self.dayOfBirth = dayOfBirth
+        self.type = type
+        self.firstName = firstName
+        self.lastName = lastName
+        self.address = address
+        self.city = city
+        self.state = state
+        self.zipCode = zipCode
     }
 }

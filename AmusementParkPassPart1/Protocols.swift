@@ -13,11 +13,11 @@ import Foundation
 protocol EntranceType {}
 
 protocol EntryPass {
-    func generatePass(selection: EntranceType) -> Pass
+    func generatePass() -> Pass
 }
 
 protocol Entrant: EntryPass {
-    var dayOfBirth: NSDate? { get }
+    var dayOfBirth: Date? { get }
     var type: EntranceType { get }
 }
 
@@ -36,7 +36,7 @@ protocol Employee: Entrant {
 // MARK: Extensions
 
 extension Entrant {
-    func generatePass(selection: EntranceType) -> Pass {
+    func generatePass() -> Pass {
         return EntranceTower().createPass(entrant: self)
     }
 }

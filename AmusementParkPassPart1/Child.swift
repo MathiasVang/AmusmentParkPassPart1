@@ -9,11 +9,12 @@
 import Foundation
 
 class ChildGuest: Guest {
-    var dayOfBirth: NSDate?
+    var dayOfBirth: Date?
     var type: EntranceType
     
-    init() {}
-    
-    func generatePass(selection: EntranceType) -> Pass {
+    init(dayOfBirth: Date, type: EntranceType) {
+        self.dayOfBirth = dayOfBirth
+        self.type = type
     }
 }
+
