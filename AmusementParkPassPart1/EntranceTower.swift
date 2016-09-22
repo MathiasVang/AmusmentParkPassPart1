@@ -12,7 +12,6 @@ import Foundation
 
 final class EntranceTower {
     
-    // Associated values?
     enum AreaAccess {
         case amusementAreas
         case kitchenAreas

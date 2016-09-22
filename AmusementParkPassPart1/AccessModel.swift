@@ -9,9 +9,7 @@
 import Foundation
 
 final class AccessModel {
-    
-    // function for area, rides, discount
-    // hver skal tjekke om man har lov til at komme ind
+
     
     func areaAccessCheck(area: EntranceTower.AreaAccess, entrant: Entrant) -> (Bool, String) {
         

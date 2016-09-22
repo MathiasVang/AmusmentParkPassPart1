@@ -1,5 +1,5 @@
 //
-//  HourlyEmployeeFood.swift
+//  HourlyEmployee.swift
 //  AmusementParkPassPart1
 //
 //  Created by Mathias Vang Rasmussen on 22/09/2016.
