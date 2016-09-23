@@ -109,6 +109,7 @@ final class EntranceTower {
     }
     
     func createPass(entrant: Entrant) -> Pass {
+        
         let areaAccess = AreaAccess.areaAcces(entrant: entrant)
         let rideAccess = RideAccess.rideAccess(entrant: entrant)
         let discountAccess = DiscountAccess.discountAccess(entrant: entrant)

@@ -14,6 +14,10 @@ protocol EntranceType {}
 
 protocol EntryPass {
     func generatePass() -> Pass
+    
+    func swipeArea(area: EntranceTower.AreaAccess) -> (Bool, String)
+    func swipeRides(area: EntranceTower.RideAccess) -> (Bool, String)
+    func swipeDiscount(area: EntranceTower.DiscountAccess) -> (Bool, String)
 }
 
 protocol Entrant: EntryPass {
@@ -38,5 +42,20 @@ protocol Employee: Entrant {
 extension Entrant {
     func generatePass() -> Pass {
         return EntranceTower().createPass(entrant: self)
+    }
+}
+
+extension Entrant {
+    
+    func swipeArea(area: EntranceTower.AreaAccess) -> (Bool, String) {
+        return AccessModel().swipeArea(area: area, entrant: self)
+    }
+    
+    func swipeRides(area: EntranceTower.RideAccess) -> (Bool, String) {
+        return AccessModel().swipeRides(area: area, entrant: self)
+    }
+    
+    func swipeDiscount(area: EntranceTower.DiscountAccess) -> (Bool, String) {
+        return AccessModel().swipeDiscount(area: area, entrant: self)
     }
 }

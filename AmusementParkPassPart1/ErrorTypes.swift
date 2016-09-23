@@ -16,4 +16,5 @@ enum Errors: Error {
     case missingState
     case missingZipCode
     case missingDayOfBirth
+    case noDiscount
 }
